@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--? ICON LINK -->
+    <link rel="stylesheet" href="./assets/font/style.css" />
+    <!--? ROOT LINK  -->
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <!--? CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/MEGA.news.png" />
+    <title>Writter Page</title>
+  </head>
+
+  <body>
+    <nav class="navbar container pages__nav">
+      <div class="navbar__desktop d-flex">
+        <div class="navbar__logo-list d-flex">
+          <div class="navbar__menu">
+            <span class="master icon-menu"></span>
+          </div>
+          <div class="navbar__logo">
+            <a href="./index.html">
+              <img src="./assets/img/MEGA.news.png" alt="mega_news_logo" />
+            </a>
+          </div>
+          <ul class="navbar__list d-flex">
+            <li class="navbar__list-item dropdown">
+              <a href="#" class="navbar__list-link"> Categories </a>
+              <span class="master icon-chevron-down"></span>
+              <div class="dropdown__content">
+                <a href="#">Culture </a>
+                <a href="#">Fashion </a>
+                <a href="#">Featured </a>
+                <a href="#">Food </a>
+                <a href="#">Healthy Living </a>
+                <a href="#">Technology </a>
+              </div>
+            </li>
+            <li class="navbar__list-item dropdown">
+              <a href="#" class="navbar__list-link"> Pages </a>
+              <span class="master icon-chevron-down"></span>
+              <div class="dropdown__content">
+                <a href="./index.html">home</a>
+                <a href="./single.html">single</a>
+                <a href="./writter.html">writter</a>
+                <a href="./category.html">category</a>
+              </div>
+            </li>
+            <li><a href="./contact.html">Contact us</a></li>
+            <li><a href="./about.html">About us</a></li>
+          </ul>
+        </div>
+        <div class="navbar__search-saved d-flex">
+          <form action="" class="navbar__search">
+            <label for="search" class="navbar__label d-flex">
+              <span>
+                <span class="master icon-dots-three-vertical"></span>
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  class="navbar__input"
+                  placeholder="Search anything"
+                />
+              </span>
+              <span class="master icon-search"></span>
+            </label>
+          </form>
+          <div class="navbar__profile d-flex">
+            <img src="./assets/img/img_avatar_13.png" alt="avatar" />
+            <span class="navbar__profile-text">Behzad</span>
+            <span class="master icon-chevron-down"></span>
+          </div>
+          <div class="navbar__saved saved">
+            <a href="#">
+              <span class="master icon-bookmark"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="res__nav container">
+      <div class="res__nav-content">
+        <img src="./assets/img/MEGA.news.png" alt="mega_news_logo" />
+        <span class="master icon-v6-icon-plus"></span>
+      </div>
+      <ul class="res__nav-list">
+        <li class="navbar__list-item dropdown">
+          <a href="#" class="navbar__list-link"> Categories </a>
+          <span class="master icon-chevron-down"></span>
+          <span class="master icon-chevron-right icon-none"></span>
+          <div class="dropdown__content">
+            <a href="#">Culture </a>
+            <a href="#">Fashion </a>
+            <a href="#">Featured </a>
+            <a href="#">Food </a>
+            <a href="#">Healthy Living </a>
+            <a href="#">Technology </a>
+          </div>
+        </li>
+        <li class="navbar__list-item dropdown">
+          <a href="#" class="navbar__list-link"> Pages </a>
+          <span class="master icon-chevron-down"></span>
+          <span class="master icon-chevron-right icon-none"></span>
+
+          <div class="dropdown__content">
+            <a href="./index.html">home</a>
+            <a href="./single.html">single</a>
+            <a href="./writter.html">writter</a>
+            <a href="./category.html">category</a>
+          </div>
+        </li>
+        <li class="navbar__list-item">
+          <a href="./contact.html">Contact us</a>
+        </li>
+        <li class="navbar__list-item"><a href="./about.html">About us</a></li>
+      </ul>
+    </nav>
+    <section class="switch_section container">
+      <div class="switch_pages d-flex">
+        <a href="index.html">Home</a>
+        <span class="master icon-chevron-right"></span>
+        <p class="switch_pages-text">Writter</p>
+      </div>
+    </section>
+    <section class="container writter__section article__card">
+      <div class="card__img">
+        <img src="./assets/img/img_abstract_05.png" alt="img_abstract_05" />
+      </div>
+      <div class="article__card_follow d-flex">
+        <div class="article__card_follow_profile d-flex">
+          <div class="article__card_img">
+            <img src="./assets/img/img_avatar_01.png" alt="avatar_01" />
+          </div>
+          <p>Louis Hoebregts</p>
+        </div>
+        <div class="article__card_info d-flex">
+          <div class="article__card_info_result d-flex">
+            <span class="master icon-v6-icon-star"></span>
+            <p>rate : <span class="score">4.2</span></p>
+          </div>
+          <div class="article__card_info_result d-flex">
+            <span class="master icon-person"></span>
+            <p>follower : <span class="score">1.2 k</span></p>
+          </div>
+          <div class="article__card_info_result d-flex">
+            <span class="master icon-v6-icon-post"></span>
+            <p>post : <span class="score">29</span></p>
+          </div>
+        </div>
+        <div class="article__card_btn">
+          <button class="article__btn btn d-flex">
+            <span class="master icon-v6-icon-plus"></span>
+            <span>follow</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card_section container">
+      <div class="post-title post d-flex">
+        <h2>Latest posts</h2>
+      </div>
+      <div class="post__cards d-flex">
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_sport_05.png" alt="sport_05" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              Opening Day of Boating Season, Seattle WA
+            </p>
+            <p class="post__card-content-paragraph">
+              Of course the Puget Sound is very watery, and where there is
+              water, there are boats. Today is...
+              <span class="slider__content-none">
+                the Grand Opening of Boating Season when traffic gets stalled in
+                the University District (UW) while the Montlake Bridge
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_12.png" alt="avatar_12" />
+              </div>
+              <div class="card__profile-info">
+                <p>James</p>
+                <span>August 18 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_technology_07.png" alt="technology_07" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How to choose the right laptop for...
+              <span class="slider__content-none"> programming</span>
+            </p>
+            <p class="post__card-content-paragraph">
+              Choosing the right laptop for programming can be a tough process.
+              It’s easy to get confused...
+              <span class="slider__content-none">
+                while researching the various options. There are many different
+                laptop models out there, each with a different set of trade-offs
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_01.png" alt="avatar_01" />
+              </div>
+              <div class="card__profile-info">
+                <p>Louis Hoebregts</p>
+                <span>July 25 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_car_02.png" alt="car_02" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How we built the first real self-driving car
+            </p>
+            <p class="post__card-content-paragraph">
+              Electric self-driving cars will save millions of lives and
+              significantly accelerate the world’s...
+              <span class="slider__content-none"
+                >transition to sustainable energy, but only when
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_02.png" alt="avatar_02" />
+              </div>
+              <div class="card__profile-info">
+                <p>Mary</p>
+                <span>July 14 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_food_07.png" alt="food_07" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How to Persuade Your Parents to Buy Fast...
+              <span class="slider__content-none">Food</span>
+            </p>
+            <p class="post__card-content-paragraph">
+              Parents often don’t want to buy fast food. They may be worried
+              that it’s too expensive, unhealthy...<span
+                class="slider__content-none"
+              >
+                , or not worth the effort and time.
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_10.png" alt="avatar_10" />
+              </div>
+              <div class="card__profile-info">
+                <p>Jon Kantner</p>
+                <span>May 10 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="post__cards d-flex">
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_sport_05.png" alt="sport_05" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              Opening Day of Boating Season, Seattle WA
+            </p>
+            <p class="post__card-content-paragraph">
+              Of course the Puget Sound is very watery, and where there is
+              water, there are boats. Today is...
+              <span class="slider__content-none">
+                the Grand Opening of Boating Season when traffic gets stalled in
+                the University District (UW) while the Montlake Bridge
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_12.png" alt="avatar_12" />
+              </div>
+              <div class="card__profile-info">
+                <p>James</p>
+                <span>August 18 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_technology_07.png" alt="technology_07" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How to choose the right laptop for...
+              <span class="slider__content-none"> programming</span>
+            </p>
+            <p class="post__card-content-paragraph">
+              Choosing the right laptop for programming can be a tough process.
+              It’s easy to get confused...
+              <span class="slider__content-none">
+                while researching the various options. There are many different
+                laptop models out there, each with a different set of trade-offs
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_01.png" alt="avatar_01" />
+              </div>
+              <div class="card__profile-info">
+                <p>Louis Hoebregts</p>
+                <span>July 25 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_car_02.png" alt="car_02" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How we built the first real self-driving car
+            </p>
+            <p class="post__card-content-paragraph">
+              Electric self-driving cars will save millions of lives and
+              significantly accelerate the world’s...
+              <span class="slider__content-none"
+                >transition to sustainable energy, but only when
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_02.png" alt="avatar_02" />
+              </div>
+              <div class="card__profile-info">
+                <p>Mary</p>
+                <span>July 14 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_food_07.png" alt="food_07" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How to Persuade Your Parents to Buy Fast...
+              <span class="slider__content-none">Food</span>
+            </p>
+            <p class="post__card-content-paragraph">
+              Parents often don’t want to buy fast food. They may be worried
+              that it’s too expensive, unhealthy...<span
+                class="slider__content-none"
+              >
+                , or not worth the effort and time.
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_10.png" alt="avatar_10" />
+              </div>
+              <div class="card__profile-info">
+                <p>Jon Kantner</p>
+                <span>May 10 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="post__cards d-flex">
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_sport_05.png" alt="sport_05" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              Opening Day of Boating Season, Seattle WA
+            </p>
+            <p class="post__card-content-paragraph">
+              Of course the Puget Sound is very watery, and where there is
+              water, there are boats. Today is...
+              <span class="slider__content-none">
+                the Grand Opening of Boating Season when traffic gets stalled in
+                the University District (UW) while the Montlake Bridge
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_12.png" alt="avatar_12" />
+              </div>
+              <div class="card__profile-info">
+                <p>James</p>
+                <span>August 18 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_technology_07.png" alt="technology_07" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How to choose the right laptop for...
+              <span class="slider__content-none"> programming</span>
+            </p>
+            <p class="post__card-content-paragraph">
+              Choosing the right laptop for programming can be a tough process.
+              It’s easy to get confused...
+              <span class="slider__content-none">
+                while researching the various options. There are many different
+                laptop models out there, each with a different set of trade-offs
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_01.png" alt="avatar_01" />
+              </div>
+              <div class="card__profile-info">
+                <p>Louis Hoebregts</p>
+                <span>July 25 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_car_02.png" alt="car_02" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How we built the first real self-driving car
+            </p>
+            <p class="post__card-content-paragraph">
+              Electric self-driving cars will save millions of lives and
+              significantly accelerate the world’s...
+              <span class="slider__content-none"
+                >transition to sustainable energy, but only when
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_02.png" alt="avatar_02" />
+              </div>
+              <div class="card__profile-info">
+                <p>Mary</p>
+                <span>July 14 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post__card">
+          <div class="post__card-img">
+            <img src="./assets/img/img_food_07.png" alt="food_07" />
+          </div>
+          <div class="post__card-content">
+            <p class="post__card-content-title">
+              How to Persuade Your Parents to Buy Fast...
+              <span class="slider__content-none">Food</span>
+            </p>
+            <p class="post__card-content-paragraph">
+              Parents often don’t want to buy fast food. They may be worried
+              that it’s too expensive, unhealthy...<span
+                class="slider__content-none"
+              >
+                , or not worth the effort and time.
+              </span>
+            </p>
+          </div>
+          <div class="card__profile d-flex">
+            <div class="card__profile-left d-flex">
+              <div class="card__profile-img">
+                <img src="./assets/img/img_avatar_10.png" alt="avatar_10" />
+              </div>
+              <div class="card__profile-info">
+                <p>Jon Kantner</p>
+                <span>May 10 , 2022</span>
+              </div>
+            </div>
+            <div class="card__profile-right saved">
+              <a href="#">
+                <span class="master icon-bookmark"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="saved d-flex">
+        <a href="#"><span>1</span> </a>
+        <a href="#"> <span>2</span> </a>
+        <a href="#"> <span>3</span> </a>
+        <a href="#"><span>...</span> </a>
+        <a href="#"> <span>9</span> </a>
+        <a href="#" class="next">
+          <span>Next</span> <span class="master icon-chevron-right"></span
+        ></a>
+      </div>
+    </section>
+    <footer class="footer d-flex">
+      <div class="footer__left-bg">
+        <div class="footer__left container d-flex">
+          <div class="footer__news">
+            <div class="footer__mega-news">
+              <div class="post d-flex">
+                <h2>mega news</h2>
+              </div>
+              <p class="slider__box-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae
+                congue mauris rhoncus aenean vel elit scelerisque. In egestas
+                erat imperdiet sed euismod nisi porta lorem mollis. Morbi
+                tristique senectus et netus. Mattis pellentesque id nibh tortor
+                id aliquet lectus proin
+              </p>
+            </div>
+            <div class="footer__newsletters">
+              <div class="post d-flex">
+                <h2>newsletters</h2>
+              </div>
+              <form action="">
+                <label for="email" class="footer__label d-flex">
+                  <input
+                    type="email"
+                    id="email"
+                    class="footer__input"
+                    placeholder="Write your email .."
+                  />
+                  <span class="master icon-icon-mail"></span>
+                </label>
+              </form>
+            </div>
+          </div>
+          <div class="footer__category-social">
+            <div class="footer__categoties">
+              <div class="post d-flex">
+                <h2>Categories</h2>
+              </div>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Culture </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Fashion </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Featured </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Food </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Healthy Living </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Technology </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__network">
+              <div class="post d-flex">
+                <h2>social network</h2>
+              </div>
+              <div class="footer__network-icon d-flex">
+                <div class="footer__network-icon-insta d-flex">
+                  <span class="master icon-instagram"></span>
+                  <span>Instagram</span>
+                </div>
+                <div class="footer__network-icon-twit">
+                  <span class="master icon-v6-icon-twitter3"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright-bg">
+          <div class="footer__copyright container d-flex">
+            <div class="footer__copyright-left">
+              <span>privacy policy | terms & conditions</span>
+            </div>
+            <div class="footer__copyright-right">
+              <span> all copyright (c) 2022 reserved</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__right container d-flex">
+        <div class="footer__comment">
+          <div class="post d-flex">
+            <h2>new comments</h2>
+          </div>
+          <div class="footer__comment-cards">
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">ellsmartx</p>
+              <p>
+                how nice does this look 😍 I feel it should be delicious, thank
+                you
+              </p>
+            </div>
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">cassia</p>
+              <p>
+                Take a rest, i'll be cheer up you again in 2 next game go go go
+              </p>
+            </div>
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">cassia</p>
+              <p>
+                Take a rest, i'll be cheer up you again in 2 next game go go go
+              </p>
+            </div>
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">cassia</p>
+              <p>
+                Take a rest, i'll be cheer up you again in 2 next game go go go
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__follow">
+          <div class="post d-flex">
+            <h2>Follow on Instagram</h2>
+          </div>
+          <div class="footer__card d-flex">
+            <div class="footer__card-img">
+              <img src="./assets/img/img_car_02.png" alt="car_02" />
+            </div>
+            <div class="footer__card-img">
+              <img src="./assets/img/img_animal_10.png" alt="img_animal_10" />
+            </div>
+            <div class="footer__card-img">
+              <img
+                src="./assets/img/img_technology_02.png"
+                alt="technology_02"
+              />
+            </div>
+          </div>
+          <div class="footer__card d-flex">
+            <div class="footer__card-img">
+              <img src="./assets/img/img_car_02.png" alt="car_02" />
+            </div>
+            <div class="footer__card-img">
+              <img src="./assets/img/img_animal_10.png" alt="img_animal_10" />
+            </div>
+            <div class="footer__card-img">
+              <img
+                src="./assets/img/img_technology_02.png"
+                alt="technology_02"
+              />
+            </div>
+          </div>
+          <div class="footer__card d-flex">
+            <div class="footer__card-img">
+              <img src="./assets/img/img_car_02.png" alt="car_02" />
+            </div>
+            <div class="footer__card-img">
+              <img src="./assets/img/img_animal_10.png" alt="img_animal_10" />
+            </div>
+            <div class="footer__card-img">
+              <img
+                src="./assets/img/img_technology_02.png"
+                alt="technology_02"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

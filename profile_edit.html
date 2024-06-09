@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--? ICON LINK -->
+    <link rel="stylesheet" href="./assets/font/style.css" />
+    <!--? ROOT LINK  -->
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <!--? CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/MEGA.news.png" />
+    <title>Profile Edit</title>
+  </head>
+
+  <body>
+    <nav class="navbar container pages__nav">
+      <div class="navbar__desktop d-flex">
+        <div class="navbar__logo-list d-flex">
+          <div class="navbar__menu">
+            <span class="master icon-menu"></span>
+          </div>
+          <div class="navbar__logo">
+            <a href="./index.html">
+              <img src="./assets/img/MEGA.news.png" alt="mega_news_logo" />
+            </a>
+          </div>
+          <ul class="navbar__list d-flex">
+            <li class="navbar__list-item dropdown">
+              <a href="#" class="navbar__list-link"> Categories </a>
+              <span class="master icon-chevron-down"></span>
+              <div class="dropdown__content">
+                <a href="#">Culture </a>
+                <a href="#">Fashion </a>
+                <a href="#">Featured </a>
+                <a href="#">Food </a>
+                <a href="#">Healthy Living </a>
+                <a href="#">Technology </a>
+              </div>
+            </li>
+            <li class="navbar__list-item dropdown">
+              <a href="#" class="navbar__list-link"> Pages </a>
+              <span class="master icon-chevron-down"></span>
+              <div class="dropdown__content">
+                <a href="./index.html">home</a>
+                <a href="./single.html">single</a>
+                <a href="./writter.html">writter</a>
+                <a href="./category.html">category</a>
+              </div>
+            </li>
+            <li><a href="./contact.html">Contact us</a></li>
+            <li><a href="./about.html">About us</a></li>
+          </ul>
+        </div>
+        <div class="navbar__search-saved d-flex">
+          <form action="" class="navbar__search">
+            <label for="search" class="navbar__label d-flex">
+              <span>
+                <span class="master icon-dots-three-vertical"></span>
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  class="navbar__input"
+                  placeholder="Search anything"
+                />
+              </span>
+              <span class="master icon-search"></span>
+            </label>
+          </form>
+          <div class="navbar__profile d-flex">
+            <img src="./assets/img/img_avatar_13.png" alt="avatar" />
+            <span class="navbar__profile-text">Behzad</span>
+            <span class="master icon-chevron-down"></span>
+          </div>
+          <div class="navbar__saved saved">
+            <a href="#">
+              <span class="master icon-bookmark"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="res__nav container">
+      <div class="res__nav-content">
+        <img src="./assets/img/MEGA.news.png" alt="mega_news_logo" />
+        <span class="master icon-v6-icon-plus"></span>
+      </div>
+      <ul class="res__nav-list">
+        <li class="navbar__list-item dropdown">
+          <a href="#" class="navbar__list-link"> Categories </a>
+          <span class="master icon-chevron-down"></span>
+          <span class="master icon-chevron-right icon-none"></span>
+          <div class="dropdown__content">
+            <a href="#">Culture </a>
+            <a href="#">Fashion </a>
+            <a href="#">Featured </a>
+            <a href="#">Food </a>
+            <a href="#">Healthy Living </a>
+            <a href="#">Technology </a>
+          </div>
+        </li>
+        <li class="navbar__list-item dropdown">
+          <a href="#" class="navbar__list-link"> Pages </a>
+          <span class="master icon-chevron-down"></span>
+          <span class="master icon-chevron-right icon-none"></span>
+
+          <div class="dropdown__content">
+            <a href="./index.html">home</a>
+            <a href="./single.html">single</a>
+            <a href="./writter.html">writter</a>
+            <a href="./category.html">category</a>
+          </div>
+        </li>
+        <li class="navbar__list-item">
+          <a href="./contact.html">Contact us</a>
+        </li>
+        <li class="navbar__list-item"><a href="./about.html">About us</a></li>
+      </ul>
+    </nav>
+    <section class="switch_section container">
+      <div class="switch_pages d-flex">
+        <a href="./index.html">Home</a>
+        <span class="master icon-chevron-right"></span>
+        <p class="switch_pages-text">Profile Edit</p>
+      </div>
+    </section>
+
+    <section class="add__post edit__post container">
+      <form action="" class="add__post_form">
+        <div class="add__post_top d-flex">
+          <label for="" class="add__label">
+            first name
+            <input type="text" class="add__input" />
+          </label>
+          <label for="" class="add__label">
+            last name
+            <input type="text" class="add__input" />
+          </label>
+          <label for="" class="add__label">
+            user name
+            <input type="text" class="add__input" />
+          </label>
+        </div>
+        <div class="add__post_top d-flex">
+          <label for="" class="add__label">
+            old password
+            <input type="password" class="add__input" />
+          </label>
+          <label for="" class="add__label">
+            password
+            <input type="password" class="add__input" />
+          </label>
+          <label for="" class="add__label">
+            email
+            <input type="email" class="add__input" />
+          </label>
+        </div>
+        <div class="edit__post_banner">
+          <div class="add__img_post">
+            <p class="add__post_title">add banner</p>
+            <div class="add__img_bg">
+              <div class="add__img_border">
+                <div class="add__img">
+                  <img src="./assets/img/img-icon.png" alt="file-icon" />
+                </div>
+                <div>
+                  <p>Drop image here, paste or</p>
+                  <label for="fileUpload" class="add__img_label d-flex">
+                    <span class="master icon-v6-icon-plus"></span>
+                    Select
+                    <input type="file" id="fileUpload" class="add__img_input" />
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__add_post d-flex">
+          <div class="add__post_left">
+            <p class="add__post_title">explanation</p>
+            <div class="add__post_bottom_card">
+              <ul class="add__list d-flex">
+                <li class="add__list_item">
+                  <a href="">
+                    <span class="master icon-icon-image"></span>
+                    image
+                  </a>
+                </li>
+                <li class="add__list_item">
+                  <a href="">
+                    <span class="master icon-v6-icon-color"></span>
+                    color
+                  </a>
+                </li>
+                <li class="add__list_item">
+                  <a href="">
+                    <span class="master icon-v6-icon-text"></span>
+                    text
+                  </a>
+                </li>
+                <li class="add__list_item">
+                  <a href="">
+                    <span class="master icon-v6-icon-align"></span>
+                    align
+                  </a>
+                </li>
+                <li class="add__list_item">
+                  <a href="">
+                    <span class="master icon-v6-icon-link"></span>
+                    color
+                  </a>
+                </li>
+              </ul>
+              <div class="add__textarea">
+                <textarea name="" id="" placeholder="type ..."></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="add__post_right">
+            <div class="add__img_post">
+              <p class="add__post_title">add image</p>
+              <div class="add__img_bg">
+                <div class="add__img_border">
+                  <div class="add__img">
+                    <img src="./assets/img/img-icon.png" alt="file-icon" />
+                  </div>
+                  <p>Drop image here, paste or</p>
+                  <label for="fileUpload" class="add__img_label d-flex">
+                    <span class="master icon-v6-icon-plus"></span>
+                    Select
+                    <input type="file" id="fileUpload" class="add__img_input" />
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="add__img_buttons d-flex">
+              <button class="article__btn btn">
+                <span class="master icon-v6-icon-save1"></span>
+                save
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer d-flex">
+      <div class="footer__left-bg">
+        <div class="footer__left container d-flex">
+          <div class="footer__news">
+            <div class="footer__mega-news">
+              <div class="post d-flex">
+                <h2>mega news</h2>
+              </div>
+              <p class="slider__box-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae
+                congue mauris rhoncus aenean vel elit scelerisque. In egestas
+                erat imperdiet sed euismod nisi porta lorem mollis. Morbi
+                tristique senectus et netus. Mattis pellentesque id nibh tortor
+                id aliquet lectus proin
+              </p>
+            </div>
+            <div class="footer__newsletters">
+              <div class="post d-flex">
+                <h2>newsletters</h2>
+              </div>
+              <form action="">
+                <label for="email" class="footer__label d-flex">
+                  <input
+                    type="email"
+                    id="email"
+                    class="footer__input"
+                    placeholder="Write your email .."
+                  />
+                  <span class="master icon-icon-mail"></span>
+                </label>
+              </form>
+            </div>
+          </div>
+          <div class="footer__category-social">
+            <div class="footer__categoties">
+              <div class="post d-flex">
+                <h2>Categories</h2>
+              </div>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Culture </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Fashion </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Featured </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Food </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Healthy Living </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-item-link">Technology </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__network">
+              <div class="post d-flex">
+                <h2>social network</h2>
+              </div>
+              <div class="footer__network-icon d-flex">
+                <div class="footer__network-icon-insta d-flex">
+                  <span class="master icon-instagram"></span>
+                  <span>Instagram</span>
+                </div>
+                <div class="footer__network-icon-twit">
+                  <span class="master icon-v6-icon-twitter3"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright-bg">
+          <div class="footer__copyright container d-flex">
+            <div class="footer__copyright-left">
+              <span>privacy policy | terms & conditions</span>
+            </div>
+            <div class="footer__copyright-right">
+              <span> all copyright (c) 2022 reserved</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__right container d-flex">
+        <div class="footer__comment">
+          <div class="post d-flex">
+            <h2>new comments</h2>
+          </div>
+          <div class="footer__comment-cards">
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">ellsmartx</p>
+              <p>
+                how nice does this look 😍 I feel it should be delicious, thank
+                you
+              </p>
+            </div>
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">cassia</p>
+              <p>
+                Take a rest, i'll be cheer up you again in 2 next game go go go
+              </p>
+            </div>
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">cassia</p>
+              <p>
+                Take a rest, i'll be cheer up you again in 2 next game go go go
+              </p>
+            </div>
+            <div class="footer__comment-card">
+              <p class="footer__comment-card-title">cassia</p>
+              <p>
+                Take a rest, i'll be cheer up you again in 2 next game go go go
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__follow">
+          <div class="post d-flex">
+            <h2>Follow on Instagram</h2>
+          </div>
+          <div class="footer__card d-flex">
+            <div class="footer__card-img">
+              <img src="./assets/img/img_car_02.png" alt="car_02" />
+            </div>
+            <div class="footer__card-img">
+              <img src="./assets/img/img_animal_10.png" alt="img_animal_10" />
+            </div>
+            <div class="footer__card-img">
+              <img
+                src="./assets/img/img_technology_02.png"
+                alt="technology_02"
+              />
+            </div>
+          </div>
+          <div class="footer__card d-flex">
+            <div class="footer__card-img">
+              <img src="./assets/img/img_car_02.png" alt="car_02" />
+            </div>
+            <div class="footer__card-img">
+              <img src="./assets/img/img_animal_10.png" alt="img_animal_10" />
+            </div>
+            <div class="footer__card-img">
+              <img
+                src="./assets/img/img_technology_02.png"
+                alt="technology_02"
+              />
+            </div>
+          </div>
+          <div class="footer__card d-flex">
+            <div class="footer__card-img">
+              <img src="./assets/img/img_car_02.png" alt="car_02" />
+            </div>
+            <div class="footer__card-img">
+              <img src="./assets/img/img_animal_10.png" alt="img_animal_10" />
+            </div>
+            <div class="footer__card-img">
+              <img
+                src="./assets/img/img_technology_02.png"
+                alt="technology_02"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
