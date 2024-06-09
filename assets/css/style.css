@@ -158,7 +158,8 @@ textarea {
 }
 
 /*! DROPDOWN */
-.dropdown {
+.dropdown,
+.dropdown_submenu {
   position: relative;
 }
 
@@ -167,7 +168,8 @@ textarea {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown__content {
+.dropdown:hover .dropdown__content,
+.dropdown__submenu_content {
   display: block;
   background-color: #fff;
   width: 150px;
@@ -176,8 +178,7 @@ textarea {
 }
 
 .dropdown .dropdown__content a {
-  display: flex;
-  flex-direction: column;
+  display: block;
   padding: 10px 15px;
   margin: 15px auto;
   transition: all 0.3s ease-in-out;
@@ -187,7 +188,15 @@ textarea {
   border-radius: 6px;
   background-color: var(--bg-color-grey);
 }
-
+.dropdown_submenu:hover .dropdown__submenu_content {
+  display: block;
+}
+.dropdown__submenu_content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
 /** RESPONSIVE NAVBAR */
 .res__nav {
   display: none;
@@ -1318,8 +1327,7 @@ p .score {
   padding-bottom: 100px;
 }
 .add__post_form {
-  display: flex;
-  flex-direction: column;
+  align-items: flex-start;
   gap: 24px;
 }
 .add__post_left {
@@ -1362,6 +1370,9 @@ p .score {
 }
 .add__post_title {
   padding-bottom: 15px;
+}
+.add__post_bottom {
+  padding-top: 20px;
 }
 .add__post_bottom_card {
   padding: 20px;
@@ -1751,6 +1762,9 @@ p .score {
 }
 .edit__post_banner .add__img_label {
   justify-content: center;
+}
+.edit__post .add__post_top {
+  padding-bottom: 20px;
 }
 /*? ERROR PAGE  */
 .error {
