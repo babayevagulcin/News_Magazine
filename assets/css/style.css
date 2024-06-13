@@ -79,7 +79,8 @@ textarea {
   background-color: var(--btn-bg-color-hover);
 }
 
-.saved a {
+.saved a,
+.navbar__menu {
   background-color: var(--bg-color-grey);
   padding: 12px;
   border-radius: 12px;
@@ -95,15 +96,20 @@ textarea {
   padding-top: 35px;
   padding-bottom: 45px;
 }
-
+.navbar__desktop {
+  gap: 50px;
+}
 .navbar__menu,
 .dropdown__content,
-.navbar__profile {
+.navbar__profile,
+.navbar__search_tablet {
   display: none;
 }
-
+.navbar__search_tablet {
+  padding-top: 20px;
+}
 .navbar__logo {
-  width: 150px;
+  width: 140px;
 }
 
 .navbar__logo img {
@@ -116,7 +122,7 @@ textarea {
 }
 
 .navbar__list {
-  gap: 35px;
+  gap: 32px;
 }
 
 .navbar__search-saved {
@@ -132,7 +138,7 @@ textarea {
 
 .navbar__input {
   background-color: var(--bg-color-grey);
-  padding-right: 120px;
+  width: 235px;
 }
 
 .navbar__input::placeholder {
@@ -144,6 +150,8 @@ textarea {
 .navbar__profile {
   justify-content: center;
   gap: 10px;
+}
+.navbar__profile_img {
   width: 50px;
   height: 50px;
 }
@@ -155,6 +163,10 @@ textarea {
 
 .navbar__saved a {
   color: var(--saved-navbar-color);
+}
+.navbar__menu {
+  color: var(--saved-navbar-color);
+  font-weight: 900;
 }
 
 /*! DROPDOWN */
@@ -283,15 +295,16 @@ textarea {
 .slider__left {
   justify-content: flex-start;
   gap: 25px;
-  width: 50%;
+  width: 80%;
 }
 
 .slider .slider__left-box {
-  width: 360px;
+  width: 100%;
   height: 400px;
   border-radius: 12px;
   position: relative;
   background-size: cover;
+  background-position: center;
 }
 
 .bg__img-car {
@@ -310,6 +323,7 @@ textarea {
 .slider__right-box {
   background-image: url(/assets/img/img_technology_01.png);
   background-size: cover;
+  background-position: center;
   height: 100%;
   border-radius: 12px;
   position: relative;
@@ -381,7 +395,6 @@ textarea {
   justify-content: flex-start;
   gap: 20px;
 }
-
 .post__card:hover {
   transform: scale(0.9);
   transition: all 0.5s;
@@ -457,18 +470,26 @@ textarea {
 .sports__bg {
   background-image: url(/assets/img/img_sport_06.png);
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: 464px;
   filter: blur(12px);
 }
-
 .sports_img {
   width: 478px;
   height: 334px;
+}
+.sports_img,
+.sports_img_calendar {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.sports_img_calendar {
+  display: none;
+  width: 390px;
+  height: 334px;
 }
 
 /*! NEW POST */
@@ -498,17 +519,27 @@ textarea {
 .latest .post__slider {
   padding-bottom: 50px;
 }
+.latest__btn {
+  display: none;
+}
+.latest__btn_link {
+  background-color: var(--btn-dark-bg-color);
+}
 .latest__left {
   gap: 24px;
 }
 .latest__video {
   width: 50%;
+  height: 444px;
   background-image: url(/assets/img/img_dance_05.png);
   background-size: cover;
+  background-position: center;
   position: relative;
   border-radius: 12px;
 }
-
+.latest .slider__right-box-chevron-icon {
+  display: none;
+}
 .slider__play-icon {
   height: 100%;
   justify-content: center;
@@ -605,13 +636,14 @@ textarea {
   padding-top: 40px;
 }
 .footer__news {
-  width: 60%;
+  width: 50%;
 }
 
 .footer__mega-news .slider__box-paragraph {
   padding-top: 20px;
   font-size: 14px;
   font-weight: 400;
+  text-align: justify;
   line-height: 20px;
   letter-spacing: 0.25px;
   text-transform: capitalize;
@@ -631,7 +663,9 @@ textarea {
   font-size: 20px;
   color: var(--footer-paragraph-color);
 }
-
+.footer__newsletters .footer__input {
+  width: 100%;
+}
 .footer__newsletters .footer__input::placeholder {
   font-size: 12px;
   font-weight: 400;
@@ -703,8 +737,8 @@ textarea {
 }
 
 .footer__card {
-  gap: 25px;
-  padding: 25px;
+  gap: 20px;
+  padding: 20px;
 }
 .footer__card-img {
   width: 104px;
@@ -957,6 +991,7 @@ textarea {
 
 .article__card_bg {
   background-size: cover;
+  background-position: center;
   border-radius: 12px;
   width: 100%;
   height: 100%;
@@ -1592,6 +1627,7 @@ p .score {
   height: 444px;
   background-image: url(/assets/img/img_abstract_05.png);
   background-size: cover;
+  background-position: center;
   position: relative;
   border-radius: 12px;
 }
@@ -1784,4 +1820,162 @@ p .score {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
+}
+@media (max-width: 1200px) {
+  /*! Navbar */
+  .navbar__logo {
+    width: 100px;
+  }
+  .navbar__input {
+    width: 200px;
+  }
+  .navbar__list {
+    gap: 24px;
+  }
+  .navbar__search-saved {
+    gap: 20px;
+  }
+  /*! Post section */
+  .card__profile {
+    padding: 5px 10px;
+  }
+  /*! Footer */
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer__left-bg {
+    width: 70%;
+  }
+}
+@media (max-width: 992px) {
+  /*! Navbar */
+  .navbar__search_tablet {
+    display: block;
+  }
+  .navbar__search {
+    display: none;
+  }
+  /*! SLIDER SECTION */
+  .slider {
+    flex-direction: column;
+  }
+  .slider__left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .post__cards {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .post__card {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  /*! Navbar */
+  .navbar {
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+  }
+  .navbar__menu {
+    display: block;
+  }
+  .navbar__profile {
+    display: flex;
+  }
+  .navbar__list {
+    display: none;
+  }
+
+  /*! CATEGORIES Section */
+  .categories {
+    display: none;
+  }
+  /*! SLIDER SECTION */
+  .slider__left {
+    display: none;
+  }
+  /** SPORTS SECTION */
+  .sports {
+    display: block;
+  }
+  /*! NEW POST */
+  .new-post .post__card {
+    width: 100%;
+  }
+  /*! LATEST VIDEO */
+  .latest__btn {
+    display: block;
+  }
+  .latest .post__slider-icon {
+    display: none;
+  }
+  .latest__cards-row {
+    display: none;
+  }
+  .latest__video {
+    width: 100%;
+    background-image: url(/assets/img/img_technology_01.png);
+  }
+  .latest .slider__box-content {
+    width: 98%;
+  }
+  .latest .slider__box-title {
+    width: 100%;
+  }
+  .latest .slider__box-paragraph {
+    display: none;
+  }
+  .latest .slider__right-box-chevron-icon {
+    display: flex;
+  }
+  .latest .slider__play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /*! FOOTER */
+  .footer__left-bg {
+    width: 90%;
+  }
+  .footer__right {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .navbar__logo,
+  .navbar__profile,
+  .navbar__saved,
+  .navbar__search_tablet {
+    display: none;
+  }
+  .navbar__desktop {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .navbar__search-saved {
+    width: 100%;
+  }
+  .navbar__search {
+    display: block;
+    width: 100%;
+  }
+  /*! SLIDER SECTION */
+  .slider {
+    display: none;
+  }
+  .post__cards {
+    flex-direction: column;
+  }
+  .post__card {
+    width: 100%;
+  }
+  /** SPORTS */
+  .sports_img {
+    display: none;
+  }
+  .sports_img_calendar {
+    display: block;
+  }
 }
