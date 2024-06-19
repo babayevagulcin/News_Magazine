@@ -1,0 +1,111 @@
+{
+    "category": [
+      {
+        "id": 1,
+        "name": "food",
+        "catId": 1,
+        "img": "../img/img_food_01.png"
+      },
+      {
+        "id": 2,
+        "name": "animal",
+        "catId": 2,
+        "img": "../img/img_animal_10.png"
+      },
+      {
+        "id": 3,
+        "name": "car",
+        "catId": 3,
+        "img": "../img/img_car_04.png"
+      },
+      {
+        "id": 4,
+        "name": "Sport",
+        "catId": 4,
+        "img": "../img/img_sport_06.png"
+      },
+      {
+        "id": 5,
+        "name": "Music",
+        "catId": 5,
+        "img": "../img/img_music_06.png"
+      },
+      {
+        "id": 6,
+        "name": "Technology",
+        "catId": 6,
+        "img": "../img/img_technology_03.png"
+      },
+      {
+        "id": 7,
+        "name": "Abstract",
+        "catId": 7,
+        "img": "../img/img_abstract_07.png"
+      }
+    ],
+    "post": [
+      {
+        "id": 1,
+        "title": "Opening Day of Boating Season, Seattle WA",
+        "description": "Of course the Puget Sound is very watery, and where there is water, there are boats. Today is the Grand Opening of Boating Season when traffic gets stalled in the University District (UW) while the Montlake Bridge",
+        "img": "../img/img_sport_05.png",
+        "author_img": "../img/img_avatar_12.png",
+        "author_name": "James",
+        "date": "August 18, 2022"
+      },
+      {
+        "id": 2,
+        "title": "How to choose the right laptop for programming",
+        "description": "Choosing the right laptop for programming can be a tough process. It’s easy to get confused ",
+        "img": "../img/img_technology_07.png",
+        "author_img": "../img/img_avatar_01.png",
+        "author_name": "Louis Hoebregts",
+        "date": "July 25 , 2022"
+      },
+      {
+        "id": 3,
+        "title": "How we built the first real self-driving car",
+        "description": "Electric self-driving cars will save millions of lives and significantly accelerate the world’s transition to sustainable energy, but only when",
+        "img": "../img/img_car_02.png",
+        "author_img": "../img/img_avatar_02.png",
+        "author_name": "Mary",
+        "date": "July 14 , 2022"
+      },
+      {
+        "id": 4,
+        "title": "How to choose the right laptop for programming",
+        "description": "Choosing the right laptop for programming can be a tough process. It’s easy to get confused while researching the various options. There are many different laptop models out there, each with a different set of trade-offs",
+        "img": "../img/img_technology_03.png",
+        "author_img": "../img/img_avatar_01.png",
+        "author_name": "Robert",
+        "date": "July 14 , 2022"
+      },
+      {
+        "id": 5,
+        "title": "How to Persuade Your Parents to Buy Fast Food",
+        "description": "Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not worth the effort and time.",
+        "img": "../img/img_food_07.png",
+        "author_img": "../img/img_avatar_10.png",
+        "author_name": "Jon Kantner",
+        "date": "May 10 , 2022"
+      },
+      {
+        "id": 6,
+        "title": "How to build a self-driving car in one month",
+        "description": "Can I learn the necessary computer science to build the software part of a self-driving car in one month?",
+        "img": "../img/img_car_08.png",
+        "author_img": "../img/img_avatar_02.png",
+        "author_name": "Jon Kantner",
+        "date": "May 10 , 2022"
+      },
+      {
+        "id": 7,
+        "title": "Self-Improvement Has Become An Extreme Sport",
+        "description": "What we’re told we must do each day to develop and be successful has gone out of control. We have endless lists of habits that we’re supposed to do",
+        "img": "../img/img_sport_10.png",
+        "author_img": "../img/img_avatar_12.png",
+        "author_name": "James",
+        "date": "Fevrual 10 , 2022"
+      }
+    ]
+    }
